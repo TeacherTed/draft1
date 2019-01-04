@@ -1,0 +1,27 @@
+.title{
+    color: green
+}
+
+.title2{
+    color: rgb(128, 0, 96)
+}
+h4{
+    color: maroon
+}
+img{
+    width: 800px;
+    height: auto;
+}
+.rotateimg180 {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .content {
+    max-width: 900px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+  }
