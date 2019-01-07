@@ -1,8 +1,18 @@
+body
+{
+    background-color: rgb(119, 189, 255) !important;
+}
+
 .title{
-    color: green
+    font-style: italic;
+    font-size: 100px;
+    font-family: Palatino; 
+    text-align: center;
+    color: green;
 }
 
 .title2{
+    text-align: center;
     color: rgb(128, 0, 96)
 }
 h4{
@@ -25,3 +35,13 @@ img{
     background: rgb(255, 255, 255);
     padding: 10px;
   }
+li{
+    display: inline;
+}
+h1{
+    margin-right: auto;
+    margin-left: auto;
+}
+#quote{
+    text-align: center
+}
