@@ -43,5 +43,8 @@ h1{
     margin-left: auto;
 }
 #quote{
-    text-align: center
+    text-align: center;
+}
+#intro{
+    text-align: center;
 }
