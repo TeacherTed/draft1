@@ -3,32 +3,41 @@ body
     background-color: rgb(119, 189, 255) !important;
 }
 
-.title{
-    font-style: italic;
-    font-size: 100px;
-    font-family: Palatino; 
+.mainpicture {
+    position: relative;
     text-align: center;
-    color: green;
+    color: white;
+  }
+  
+  .title {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    color:rgb(13, 102, 13);
+    font-size: 80px;
+  }
+#welcome{
+    font-size: 60px;
 }
-
 .title2{
     text-align: center;
     color: rgb(128, 0, 96)
+    font-size: 50px;
 }
 h4{
     color: maroon
 }
-img{
-    width: 800px;
-    height: auto;
-}
-.rotateimg180 {
-    -webkit-transform:rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
+/* .beginning{ 
+    margin-bottom: 10px;
+}*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 65%;
+    width:90%;
   }
+
   .content {
     max-width: 900px;
     margin: auto;
@@ -44,6 +53,7 @@ h1{
 }
 #quote{
     text-align: center;
+
 }
 #intro{
     text-align: center;
