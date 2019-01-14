@@ -26,11 +26,10 @@ body
     font-size: 50px;
 }
 h4{
-    color: maroon
+    color: maroon;
+    font-size: 20px;
 }
-/* .beginning{ 
-    margin-bottom: 10px;
-}*/
+
 img {
     display: block;
     margin-left: auto;
@@ -57,5 +56,8 @@ h1{
 
 }
 #intro{
+    text-align: center;
+}
+p{
     text-align: center;
 }
